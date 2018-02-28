@@ -22,4 +22,10 @@ public class NBody {
         }
         return planets;
     }
+
+    public static void main(String T,String dt,String fileName){
+        double T = double.parseDouble(T);
+        String dt = double.parseDouble(dt);
+        double radius = readRadius(fileName);
+    }
 }
